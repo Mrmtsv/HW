@@ -4,6 +4,6 @@ Console.WriteLine($"Перечень всех четных чисел до {numb
 int numberX = 1;
 while (numberX <= number)
 {
-if ((numberX % 2) == 0) Console.WriteLine(numberX);
-numberX ++;
+    if ((numberX % 2) == 0) Console.WriteLine(numberX);
+    numberX++;
 }
